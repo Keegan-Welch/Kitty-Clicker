@@ -41,4 +41,12 @@ public class Shop extends JPanel {
         add(increaseConst);
         add(increaseMult);
     }
+
+    public double getConstantPrice() {
+        return constPrice;
+    }
+
+    public double getMultiplierPrice() {
+        return multPrice;
+    }
 }
